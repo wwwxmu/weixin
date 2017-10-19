@@ -4,7 +4,9 @@
 那么，利用这个接口，我们就可以爬取指定公众号的文章链接了
 
 文章参考：[静觅](http://cuiqingcai.com/4652.html)
+
 准备工具：一个订阅号，安装selenium
+
 爬取步骤：
 1. get_cookie.py用selenium登陆，获取cookie，其中你需要勾选“记住”选项，还需要微信扫描二维码，确定顺利登陆
 2. get_url.py获取你需要的公众号的历史文章链接
